@@ -28,7 +28,7 @@ defmodule PhoenixTCP.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:ranch, "~> 1.0", manager: :rebar},
-     {:poison, "~> 1.5"},
+     {:poison, "~> 2.0"},
      {:phoenix, "~> 1.2"},
      {:exrm, "~> 1.0.0"}]
   end
